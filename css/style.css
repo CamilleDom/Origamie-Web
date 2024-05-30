@@ -1,0 +1,311 @@
+/* General*/
+h1
+{
+text-align: center;
+padding-top: 30px;
+}
+body
+{
+    background-color:  #F7DFDE;
+}
+
+header
+{
+    width: 100%;
+    height: 100px;
+}
+
+#home_logo{
+    float:left;
+    position: relative;
+    left: 40px;
+}
+
+nav {
+    overflow: hidden;
+    border-radius: 10px;
+    position: relative;
+    top: 30px;
+    text-align: center;
+}
+
+.navi
+{
+    height: 100%;
+    background-color: #F7DFDE;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-size:2ch;
+    padding: 5px;
+    padding-right: 9px;
+    margin: 10px;
+    margin-left: 20px;;
+    border-style:none;
+    border-color: #423F32;
+    border-radius: 10px;
+}
+footer
+{
+    border-top:dashed ;
+    text-align:justify;
+    text-align:center;
+    padding: 10px;
+
+
+}
+
+
+/*  Help page*/
+
+#image
+{
+    background-image: url("../img/background_web_.png");
+    height: 650px;
+    width: 100%;
+    
+}
+#cb
+{
+    position: relative;
+    top: 30px;
+}
+
+.chat-container{
+    text-align: center;
+    margin-left:100px;
+    margin-right:100px;
+    border-radius:5px;
+    overflow: hidden;
+    background-color: #fff;
+
+
+}
+
+.chatbox{
+    max-width: 600px;
+    max-height: 200px;
+    padding: 60px;
+    overflow-y:scroll;
+
+}
+
+.input_container{
+    padding:10px;
+    display: flex;
+}
+
+#user_input{
+flex:1;
+padding: 10px;
+margin: 10px;
+border: 1 solid #000000;
+border-radius: 5px;
+color: #422e7d;
+text-align: center;
+}
+
+#send{
+    padding: 16px;
+    background-color: #F7DFDE;
+    border-radius: 5px;
+    border-style: dashed;
+    color: #000000;
+
+}
+
+.user-message{
+    text-align: center;
+   padding: 10px; 
+   background-color: #F7DFDE;
+   color: #fff;
+   border-radius: 10px;
+   margin: 10px;
+
+}
+
+.bot-message{
+    text-align: center;
+    padding: 10px; 
+    background-color: #f0f0f0;
+    color: #000;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.timestamp {
+    display: block;
+    font-size: 0.8em;
+    color: gray;
+}
+
+#old{
+    text-align: center;
+    color: #ff0099;
+}
+
+#tip{
+    text-align: center;
+}
+
+/* Home page*/
+
+.image1
+{
+    background-image: url("../img/background_web_.png");
+    height: 1000px;
+    width: 100%;
+    
+}
+
+#history
+{
+    position: relative;
+    top: 30px;
+    background-color:  #F7DFDE;
+    text-align:justify;
+    text-align: center;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 5px;
+    margin-bottom: 50px;
+    border-style: dashed;
+    padding: 10px;
+
+}
+
+#history ul
+{
+    text-align: center;
+
+}
+
+/* Masters page*/
+
+#image2
+{
+    background-image: url("../img/background_web_.png");
+
+}
+#master
+{
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 5px;
+    margin-bottom: 50px;
+
+}
+
+
+details {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+summary {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+details[open] summary {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+#imgm {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    gap: 10px;
+}
+#imgm img {
+
+    max-height: 300px;
+    
+}
+/* About US*/
+
+
+#image3
+{
+    background-image: url("../img/background_web_.png");
+    height: 500px;
+    width: 100%;
+    
+}
+
+#aboutus{
+    position: relative;
+    top: 30px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 5px;
+}
+
+/* Contact us*/
+
+#image4
+{
+    background-image: url("../img/background_web_.png");
+    
+}
+
+#form
+{
+    margin-right: 100px;
+    margin-left: 100px;
+    padding-bottom: 50px;
+}
+
+#form fieldset
+{
+    background-color: #ffffff;
+    border-style: dashed;
+    border-color: #000000;
+    margin:50px;
+}
+/* Fold*/
+
+#image5
+{
+    background-image: url("../img/background_web_.png");
+    height: 3800px;
+    width: 100%;
+}
+
+#fold{
+    position: relative;
+    top: 30px;
+    background-color:  #F7DFDE;
+    text-align:justify;
+    text-align: center;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 5px;
+    margin-bottom: 50px;
+    border-style: dashed;
+    padding: 10px;
+
+}
+
+/* Fold*/
+
+#image6
+{
+    background-image: url("../img/background_web_.png");
+}
+
+#tuto
+{
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 5px;
+    margin-bottom: 50px;
+
+}
+
+.sub
+{
+    background-color:#F7DFDE ;
+}

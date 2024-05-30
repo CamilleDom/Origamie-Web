@@ -1,0 +1,65 @@
+{
+    "intents": [
+      {
+        "tag": "greet",
+        "patterns": ["Hello", "Hi", "Cuckoo", "Hey", "Greetings", "Good morning", "Good afternoon"],
+        "responses": ["Hello, how can I help you?"]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you soon", "See you next time", "Goodbye", "See you later", "Take care", "Farewell"],
+        "responses": ["See you soon! Don't hesitate if you have any more questions."]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thank you", "Thank you very much", "Thank you for your help", "Thanks a lot", "Appreciate it", "Thanks for your help"],
+        "responses": ["You're welcome! It's a pleasure to help you."]
+      },
+      {
+        "tag": "fallback",
+        "patterns": ["I'm not sure", "I don't understand", "Can you help me?", "What should I do?", "..."],
+        "responses": ["I'm sorry, I'm not sure I understand. Could you please rephrase your question?"]
+      },
+      {
+        "tag": "origami_info",
+        "patterns": ["Tell me about origami", "What is origami?", "Origami history", "Origami art", "What is the meaning of origami?"],
+        "responses": ["Origami is the Japanese art of paper folding, often associated with Japanese culture. The goal is to transform a flat sheet of paper into a finished sculpture through folding techniques."]
+      },
+      {
+        "tag": "origami_butterfly",
+        "patterns": ["How to make an origami butterfly?", "Butterfly origami tutorial", "Origami butterfly instructions", "Can you show me how to make an origami butterfly?"],
+        "responses": ["Sure! You can follow this video tutorial to make an origami butterfly: [Origami Butterfly Tutorial](https://youtu.be/1o205ZfC_GU?si=MGJY5Foa2lSidgLO)"]
+      },
+      {
+        "tag": "origami_frog",
+        "patterns": ["How to make an origami frog?", "Frog origami tutorial", "Origami frog instructions", "Can you show me how to make an origami frog?", "Easy origami frog tutorial"],
+        "responses": ["Certainly! You can follow this video tutorial to make an easy origami frog: [Easy Origami Frog Tutorial] https://www.youtube.com/watch?v=Vlb2udqPx-M&list=PL83B4618216D7989B&index=2&pp=iAQB "]
+      },
+      {
+        "tag": "origami_halloween",
+        "patterns": ["How to make an origami pumpkin?", "Halloween origami tutorial", "Origami pumpkin instructions", "Can you show me how to make an origami pumpkin?", "Easy origami Halloween tutorial"],
+        "responses": ["Absolutely! You can follow this video tutorial to make an origami pumpkin for Halloween: [Origami Pumpkin Tutorial](https://www.youtube.com/watch?v=8tbg3husvbU&list=PL83B4618216D7989B&index=4&pp=iAQB)"]
+      },
+      {
+        "tag": "origami_boat",
+        "patterns": ["How to make an origami boat?", "Boat origami tutorial", "Origami boat instructions", "Can you show me how to make an origami boat?", "Easy origami boat tutorial"],
+        "responses": ["Of course! You can follow this video tutorial to make an easy origami boat: [Easy Origami Boat Tutorial](https://www.youtube.com/watch?v=dFopAwWZ8ss&list=PL83B4618216D7989B&index=5&pp=iAQB)"]
+      },
+      {
+        "tag": "origami_dragon",
+        "patterns": ["How to make an origami dragon?", "Dragon origami tutorial", "Origami dragon instructions", "Can you show me how to make an origami dragon?", "Easy origami dragon tutorial"],
+        "responses": ["Definitely! You can follow this video tutorial to make an origami dragon: [Origami Dragon Tutorial](https://www.youtube.com/watch?v=MGqZgbKEPkU&list=PL83B4618216D7989B&index=6&pp=iAQB)"]
+      },
+      {
+        "tag": "origami_star",
+        "patterns": ["How to make an origami star?", "Star origami tutorial", "Origami star instructions", "Can you show me how to make an origami star?", "Easy origami star tutorial", "Easy origami", "Simple origami", "Origami with a strip of paper"],
+        "responses": ["Of course! You can follow this video tutorial to make an easy origami star: [Easy Origami Star Tutorial](https://www.youtube.com/watch?v=RntZNBrfrQo&list=PL83B4618216D7989B&index=7&pp=iAQB)"]
+      },
+      {
+        "tag": "meaw",
+        "patterns": [":3"],
+        "responses": [">:3"]
+      }
+    ],
+    "fallback_link": "./Home.html"
+  }
