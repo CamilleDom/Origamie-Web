@@ -6,7 +6,7 @@
  <meta charset="UTF-8"> <!-- specifies character encoding to UTF-8-->
  <meta name="viewport" content="width=device-width,initial-scale=1">
  <link rel= "stylesheet" href="../css/style.css">
- <script type="text/javascript" src="../javascript/script.js"></script>
+ <script  src="../javascript/script.js"></script>
  </head><!-- End of header tag -->
   
  <body><!-- Start of web page code -->
@@ -15,19 +15,18 @@
         <img id="home_logo" src ="../img/Logo.png" alt ="Logo_img" height="80" style="margin: 10px;">
 
         <nav>
-            <a href="Home.html"><button type="button" class="navi" > Home </button></a>
-            <a href="masters.html"><button type="button" class="navi"  > Masters</button></a>
-            <a href="basic_folds.html"><button type="button" class="navi" > Introduction to Basic folds </button></a>
-            <a href="Tutorial.html"> <button type="button" class="navi" > Tutorials </button></a>
-            <a href="ChatBox.html"><button type="button" class="navi"  > Need Help ?</button></a>
+            <a  class="navi" href="Home.html">Home </a>
+            <a class="navi" href="masters.html">Masters</a>
+            <a class="navi" href="basic_folds.html"> Introduction to Basic folds </a>
+            <a class="navi" href="Tutorial.html">  Tutorials </a>
+            <a class="navi" href="ChatBox.html">Need Help ?</a>
         </nav>
     </header>
 
     <div id="image4">
 
-        <h1>Contact us :</h1>
-
         <section id="form"> 
+            <h1>Contact us :</h1>
             <form method="post" name="Informations" action="#" class="box" id="InfoId" onsubmit="return false">
                 <fieldset id="information">
                     <legend>Your informations</legend>
@@ -44,9 +43,9 @@
                             <input type="email" id="mail" name="mail" required>
                         </div>
                         <div>
-                            <label for="statut">Origami level :</label>
+                            <label for="status">Origami level :</label>
                             <select id="status" name="status" required>
-                                <option value="null" disabled selected>Select your status</option>
+                                <option value="" disabled selected>Select your status</option>
                                 <option value="noob">Noob</option>
                                 <option value="aware">Aware</option>
                                 <option value="adept">Adept</option>
@@ -56,7 +55,7 @@
                     <div>
                         <label for="concern">Subject :</label>
                         <select id="concern" name="concern" required>
-                            <option value="null" disabled selected>You want to talk about</option>
+                            <option value="" disabled selected>You want to talk about</option>
                             <option value="Video">Video tutorials</option>
                             <option value="ContentPage">Content of a page</option>
                             <option value="haveInfo">having more information</option>
@@ -82,7 +81,7 @@
     <footer>
         <p>©️2024 Camille Dommergue & Morgane Cordier</p>
         <p>All rights reserved.</p>
-        <a href="AboutUs.html"><button type="button" class="navi"  > About us</button></a>
+        <a  class="navi" href="AboutUs.html">About us</a>
     </footer>
  </body><!-- End of web page code -->
   
